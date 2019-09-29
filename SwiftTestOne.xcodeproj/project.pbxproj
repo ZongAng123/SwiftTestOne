@@ -15,6 +15,8 @@
 		741AFDDE233DA12300F3AD23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741AFDDC233DA12300F3AD23 /* LaunchScreen.storyboard */; };
 		741AFDE9233DA12300F3AD23 /* SwiftTestOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741AFDE8233DA12300F3AD23 /* SwiftTestOneTests.swift */; };
 		741AFDF4233DA12300F3AD23 /* SwiftTestOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741AFDF3233DA12300F3AD23 /* SwiftTestOneUITests.swift */; };
+		741AFE02233DE0FC00F3AD23 /* IMG_1752.png in Resources */ = {isa = PBXBuildFile; fileRef = 741AFE01233DE0FC00F3AD23 /* IMG_1752.png */; };
+		741AFE04233DEB6F00F3AD23 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741AFE03233DEB6F00F3AD23 /* OneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		741AFDCE233DA12100F3AD23 /* SwiftTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741AFDCE233DA12100F3AD23 /* Swift 5.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift 5.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		741AFDD1233DA12100F3AD23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741AFDD3233DA12100F3AD23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		741AFDD5233DA12100F3AD23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		741AFDEF233DA12300F3AD23 /* SwiftTestOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741AFDF3233DA12300F3AD23 /* SwiftTestOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestOneUITests.swift; sourceTree = "<group>"; };
 		741AFDF5233DA12300F3AD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741AFE01233DE0FC00F3AD23 /* IMG_1752.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1752.png; sourceTree = "<group>"; };
+		741AFE03233DEB6F00F3AD23 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,7 @@
 		741AFDCF233DA12100F3AD23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				741AFDCE233DA12100F3AD23 /* SwiftTestOne.app */,
+				741AFDCE233DA12100F3AD23 /* Swift 5.1.app */,
 				741AFDE4233DA12300F3AD23 /* SwiftTestOneTests.xctest */,
 				741AFDEF233DA12300F3AD23 /* SwiftTestOneUITests.xctest */,
 			);
@@ -102,7 +106,9 @@
 				741AFDD1233DA12100F3AD23 /* AppDelegate.swift */,
 				741AFDD3233DA12100F3AD23 /* SceneDelegate.swift */,
 				741AFDD5233DA12100F3AD23 /* ViewController.swift */,
+				741AFE03233DEB6F00F3AD23 /* OneViewController.swift */,
 				741AFDD7233DA12100F3AD23 /* Main.storyboard */,
+				741AFE01233DE0FC00F3AD23 /* IMG_1752.png */,
 				741AFDDA233DA12300F3AD23 /* Assets.xcassets */,
 				741AFDDC233DA12300F3AD23 /* LaunchScreen.storyboard */,
 				741AFDDF233DA12300F3AD23 /* Info.plist */,
@@ -145,7 +151,7 @@
 			);
 			name = SwiftTestOne;
 			productName = SwiftTestOne;
-			productReference = 741AFDCE233DA12100F3AD23 /* SwiftTestOne.app */;
+			productReference = 741AFDCE233DA12100F3AD23 /* Swift 5.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		741AFDE3233DA12300F3AD23 /* SwiftTestOneTests */ = {
@@ -234,6 +240,7 @@
 			files = (
 				741AFDDE233DA12300F3AD23 /* LaunchScreen.storyboard in Resources */,
 				741AFDDB233DA12300F3AD23 /* Assets.xcassets in Resources */,
+				741AFE02233DE0FC00F3AD23 /* IMG_1752.png in Resources */,
 				741AFDD9233DA12100F3AD23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				741AFDD6233DA12100F3AD23 /* ViewController.swift in Sources */,
 				741AFDD2233DA12100F3AD23 /* AppDelegate.swift in Sources */,
 				741AFDD4233DA12100F3AD23 /* SceneDelegate.swift in Sources */,
+				741AFE04233DEB6F00F3AD23 /* OneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,14 +443,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22FA8WLF42;
+				DEVELOPMENT_TEAM = 7BADQA5FST;
 				INFOPLIST_FILE = SwiftTestOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangdu.SwiftTestOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift 5.1";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,14 +462,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22FA8WLF42;
+				DEVELOPMENT_TEAM = 7BADQA5FST;
 				INFOPLIST_FILE = SwiftTestOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangdu.SwiftTestOne;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift 5.1";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
